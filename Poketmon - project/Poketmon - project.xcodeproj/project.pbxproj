@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		149F6C892C475E880093DA14 /* Poket+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149F6C872C475E880093DA14 /* Poket+CoreDataClass.swift */; };
+		149F6C8A2C475E880093DA14 /* Poket+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149F6C882C475E880093DA14 /* Poket+CoreDataProperties.swift */; };
+		14EA6F2A2C412D3E0022E79B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA6F292C412D3E0022E79B /* AppDelegate.swift */; };
+		14EA6F2C2C412D3E0022E79B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA6F2B2C412D3E0022E79B /* SceneDelegate.swift */; };
+		14EA6F2E2C412D3E0022E79B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA6F2D2C412D3E0022E79B /* ViewController.swift */; };
+		14EA6F342C412D3E0022E79B /* Poketmon___project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14EA6F322C412D3E0022E79B /* Poketmon___project.xcdatamodeld */; };
+		14EA6F362C412D3F0022E79B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14EA6F352C412D3F0022E79B /* Assets.xcassets */; };
+		14EA6F392C412D3F0022E79B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 14EA6F382C412D3F0022E79B /* Base */; };
+		14EA6F422C412DB30022E79B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 14EA6F412C412DB30022E79B /* SnapKit */; };
+		14EA6F442C4133900022E79B /* PhoneBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA6F432C4133900022E79B /* PhoneBookViewController.swift */; };
+		14EA6F4E2C44BAB60022E79B /* PoketMonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA6F4D2C44BAB60022E79B /* PoketMonAPI.swift */; };
+		14EA6F502C450EC50022E79B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA6F4F2C450EC50022E79B /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		149F6C872C475E880093DA14 /* Poket+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Poket+CoreDataClass.swift"; sourceTree = "<group>"; };
+		149F6C882C475E880093DA14 /* Poket+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Poket+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		14EA6F262C412D3E0022E79B /* Poketmon - project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poketmon - project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14EA6F292C412D3E0022E79B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14EA6F2B2C412D3E0022E79B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14EA6F2D2C412D3E0022E79B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14EA6F332C412D3E0022E79B /* Poketmon___project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Poketmon___project.xcdatamodel"; sourceTree = "<group>"; };
+		14EA6F352C412D3F0022E79B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14EA6F382C412D3F0022E79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14EA6F3A2C412D3F0022E79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14EA6F432C4133900022E79B /* PhoneBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookViewController.swift; sourceTree = "<group>"; };
+		14EA6F4D2C44BAB60022E79B /* PoketMonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoketMonAPI.swift; sourceTree = "<group>"; };
+		14EA6F4F2C450EC50022E79B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14EA6F232C412D3E0022E79B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EA6F422C412DB30022E79B /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14EA6F1D2C412D3E0022E79B = {
+			isa = PBXGroup;
+			children = (
+				149F6C872C475E880093DA14 /* Poket+CoreDataClass.swift */,
+				149F6C882C475E880093DA14 /* Poket+CoreDataProperties.swift */,
+				14EA6F282C412D3E0022E79B /* Poketmon - project */,
+				14EA6F272C412D3E0022E79B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14EA6F272C412D3E0022E79B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14EA6F262C412D3E0022E79B /* Poketmon - project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14EA6F282C412D3E0022E79B /* Poketmon - project */ = {
+			isa = PBXGroup;
+			children = (
+				14EA6F292C412D3E0022E79B /* AppDelegate.swift */,
+				14EA6F2B2C412D3E0022E79B /* SceneDelegate.swift */,
+				14EA6F2D2C412D3E0022E79B /* ViewController.swift */,
+				14EA6F4F2C450EC50022E79B /* TableViewCell.swift */,
+				14EA6F432C4133900022E79B /* PhoneBookViewController.swift */,
+				14EA6F4D2C44BAB60022E79B /* PoketMonAPI.swift */,
+				14EA6F352C412D3F0022E79B /* Assets.xcassets */,
+				14EA6F372C412D3F0022E79B /* LaunchScreen.storyboard */,
+				14EA6F3A2C412D3F0022E79B /* Info.plist */,
+				14EA6F322C412D3E0022E79B /* Poketmon___project.xcdatamodeld */,
+			);
+			path = "Poketmon - project";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14EA6F252C412D3E0022E79B /* Poketmon - project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14EA6F3D2C412D3F0022E79B /* Build configuration list for PBXNativeTarget "Poketmon - project" */;
+			buildPhases = (
+				14EA6F222C412D3E0022E79B /* Sources */,
+				14EA6F232C412D3E0022E79B /* Frameworks */,
+				14EA6F242C412D3E0022E79B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poketmon - project";
+			packageProductDependencies = (
+				14EA6F412C412DB30022E79B /* SnapKit */,
+			);
+			productName = "Poketmon - project";
+			productReference = 14EA6F262C412D3E0022E79B /* Poketmon - project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14EA6F1E2C412D3E0022E79B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					14EA6F252C412D3E0022E79B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 14EA6F212C412D3E0022E79B /* Build configuration list for PBXProject "Poketmon - project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14EA6F1D2C412D3E0022E79B;
+			packageReferences = (
+				14EA6F402C412DB30022E79B /* XCRemoteSwiftPackageReference "SnapKit" */,
+				14EA6F452C449CE20022E79B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				14EA6F482C44A3290022E79B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = 14EA6F272C412D3E0022E79B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14EA6F252C412D3E0022E79B /* Poketmon - project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14EA6F242C412D3E0022E79B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EA6F362C412D3F0022E79B /* Assets.xcassets in Resources */,
+				14EA6F392C412D3F0022E79B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14EA6F222C412D3E0022E79B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14EA6F342C412D3E0022E79B /* Poketmon___project.xcdatamodeld in Sources */,
+				14EA6F2E2C412D3E0022E79B /* ViewController.swift in Sources */,
+				149F6C892C475E880093DA14 /* Poket+CoreDataClass.swift in Sources */,
+				149F6C8A2C475E880093DA14 /* Poket+CoreDataProperties.swift in Sources */,
+				14EA6F2A2C412D3E0022E79B /* AppDelegate.swift in Sources */,
+				14EA6F4E2C44BAB60022E79B /* PoketMonAPI.swift in Sources */,
+				14EA6F2C2C412D3E0022E79B /* SceneDelegate.swift in Sources */,
+				14EA6F502C450EC50022E79B /* TableViewCell.swift in Sources */,
+				14EA6F442C4133900022E79B /* PhoneBookViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14EA6F372C412D3F0022E79B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14EA6F382C412D3F0022E79B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14EA6F3B2C412D3F0022E79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14EA6F3C2C412D3F0022E79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14EA6F3E2C412D3F0022E79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8VV33N3F26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Poketmon - project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shin.Poketmon---project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14EA6F3F2C412D3F0022E79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8VV33N3F26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Poketmon - project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shin.Poketmon---project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14EA6F212C412D3E0022E79B /* Build configuration list for PBXProject "Poketmon - project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14EA6F3B2C412D3F0022E79B /* Debug */,
+				14EA6F3C2C412D3F0022E79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14EA6F3D2C412D3F0022E79B /* Build configuration list for PBXNativeTarget "Poketmon - project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14EA6F3E2C412D3F0022E79B /* Debug */,
+				14EA6F3F2C412D3F0022E79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14EA6F402C412DB30022E79B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		14EA6F452C449CE20022E79B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		14EA6F482C44A3290022E79B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14EA6F412C412DB30022E79B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14EA6F402C412DB30022E79B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		14EA6F322C412D3E0022E79B /* Poketmon___project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14EA6F332C412D3E0022E79B /* Poketmon___project.xcdatamodel */,
+			);
+			currentVersion = 14EA6F332C412D3E0022E79B /* Poketmon___project.xcdatamodel */;
+			path = "Poketmon___project.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 14EA6F1E2C412D3E0022E79B /* Project object */;
+}
